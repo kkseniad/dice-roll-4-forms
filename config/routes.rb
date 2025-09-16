@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   # get("/your_first_screen", { :controller => "pages", :action => "first" })
   get("/",{ :controller => "pages", :action => "home"})
 
+  get("/process_roll",{ :controller => "pages", :action => "process_roll"})
+
 end
