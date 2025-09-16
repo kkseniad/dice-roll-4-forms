@@ -18,6 +18,4 @@ class PagesController < ApplicationController
     render({:template => "pages_templates/rolls"})
   end
 
-
-
 end
